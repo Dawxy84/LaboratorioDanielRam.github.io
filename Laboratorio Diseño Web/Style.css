@@ -1,0 +1,112 @@
+body{
+    Margin: 0;
+}
+
+.imagen{
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.informacion{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.informacion h1{
+    font-size: 100px;
+}
+
+.informacion h2{
+    text-align:center;
+    color: black;
+    background: #fff;
+    width:200px;
+    margin:auto;
+}
+
+.contacto ul{
+    width: 100%;
+    text-align: center;
+}
+
+.contacto ul li{
+    display: inline-block;
+    width: 150px;
+    background:#2577ff;
+    padding: 10px;
+    margin: auto;
+    border: 2px solid Black;
+    color: #fff;
+}
+
+.skills{
+    background: #9c9c9c;
+    height: 50vh;
+}
+
+.skills h1{
+    margin: 0;
+    text-align: center;
+    Color: #fff;
+    letter-spacing: 5px;
+}
+
+.skills ul{
+    width: 500px;
+    margin: auto;
+}
+
+.skills ul li{
+    list-style: none;
+    margin: auto;
+    padding: 15px;
+    font-size: 20px;
+    font-style: normal;
+    display: inline-block;
+}
+
+.skills ul li img{
+    width: 50px;
+    display: block;
+    margin: auto;
+}
+
+.contacto{
+    height: 50vh;
+    background-color: skyblue;
+    
+}
+
+.contacto h1{
+    margin: 0;
+    text-align: center;
+    Color: #fff;
+    letter-spacing: 5px;
+}
+
+.skills ul{
+    width: 500px;
+    margin: auto;
+}
+
+.contacto ul li{
+    list-style: none;
+    margin: auto;
+    padding: 15px;
+    font-size: 20px;
+    font-style: normal;
+    display: inline-block;
+}
+
+.contacto ul li img{
+    width: 50px;
+    display: block;
+    margin: auto;
+}
